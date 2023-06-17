@@ -52,7 +52,7 @@ void Solver::printVector(const std::vector<T>& output_vector)
 
 void Solver::getInputs()
 {
-    // Get inputs
+    // Get inputs (recommend using scanf("%d", &var);)
 }
 
 void Solver::printOutputs()
@@ -67,11 +67,11 @@ void Solver::execute()
 
 int main() {
     ios_base::sync_with_stdio(false);
-    Solver solver();
+    Solver solver;
 
     solver.getInputs();
     solver.execute();
-    solver.printOutput();
+    solver.printOutputs();
     
     cin.tie(NULL);
     
