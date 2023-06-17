@@ -1,0 +1,1 @@
+// Link: https://oj.vnoi.info/problem/stone1
